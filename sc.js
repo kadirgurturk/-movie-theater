@@ -51,7 +51,3 @@ function saveToLocalStorage(indexs){
     localStorage.setItem("selectedSeats", JSON.stringify(indexs));
     localStorage.setItem("selectedMovieIndex",movie.selectedIndex);
 }
-
-function getLocalStorageInfo(){
-    
-}
